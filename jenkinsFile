@@ -7,7 +7,7 @@ pipeline{
             steps{
                sh 'mvn clean install -DskipTests'
                echo "skipping test"
-               echo "hi133411"
+               echo "hi1333411"
             }
         }
         stage(test){

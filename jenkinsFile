@@ -24,7 +24,6 @@ pipeline{
         stage(deploy){
             steps{
                 sh './scripts/deliver.sh'
-               
             }
         }
     }
